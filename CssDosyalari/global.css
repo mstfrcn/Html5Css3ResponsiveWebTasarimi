@@ -1,0 +1,42 @@
+/* text islemleri */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-large{
+    font-size: 1.80rem;
+}
+
+/* Colors */
+.bg-dark-blue{
+    background-color: #062e51;
+}
+.bg-light-blue{
+    background-color: #336ea2;
+}
+/* Container */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* forms*/
+.form-grup{
+    padding: 0.40rem 1rem;
+}
+.form-grup label{
+    display: block;
+}
+.form-grup textarea{
+    resize: none;
+}
+.form-control, textarea{
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}

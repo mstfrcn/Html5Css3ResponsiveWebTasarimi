@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+html{
+    font-family: "Open Sans", sans-serif ;
+}
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 5rem;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.7rem;
+}
+#navbar ul li a:hover{
+    background-color: rgb(37, 110, 192);
+    border-radius: 0px 20px;
+    font-size: 1.10rem;
+}
+#navbar ul li a:active{
+    font-size: 1rem;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-color: grey;
+    border-width: 3px 0px ;
+    border-style: solid;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name{
+    margin: 1rem;
+    text-align: center;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#home a{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2.5rem;
+    background-color: rgb(12, 86, 170) ;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+#home a:hover{
+    color: rgb(4, 4, 80);
+    background-color: white;
+    font-size: 0.9rem;
+    border: 0.1rem solid  rgb(37, 110, 192);
+}
+#home a:active{
+    font-size: 1rem;
+    border-style: none;
+
+}
+#training{
+    color: white;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+}
+#training .items .item{
+    padding: 0.5rem;
+    width: 40%;
+    
+}
+#training .items .item:hover{
+    color: antiquewhite;
+    opacity: 0.8;
+}
+#serfitikalar {
+    color: #333;
+    padding: 1rem; 
+}
+.courses{
+    display: flex ;
+    flex-direction: column;
+
+}
+.courses .course{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+.courses .course .course-img{
+    position: relative;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.courses .course .course-img img{
+    border-radius: 15px;
+}
+.courses .course .course-img span{
+    background-color: red;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    margin: 0,3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.courses .course .title{
+    margin-bottom: 0.75rem;
+    font-weight:bold ; 
+    font-size: 1.5rem;
+}
+
+#contact{
+    color: white;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form button{
+    display: inline-block;
+    width: 95%;
+    height: 2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+}
+#contact .contact-form button:hover{
+    font-size: 1.2rem;
+}
+#contact .contact-form .form-control ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: top;
+    
+}
+
+#contact .contact-form .form-control ul li a{ 
+    margin-right: 0.6rem;
+    font-size: 2.5rem;
+    padding-right: 1rem;
+    
+}

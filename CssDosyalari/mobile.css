@@ -1,0 +1,24 @@
+
+#navbar{
+    height: 100px;
+    flex-direction: column;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+}
+#navbar ul li a:hover{
+    font-size: 1.02rem;
+}
+#navbar ul li a:active{
+    font-size: 0.8rem;
+}
+
+.courses .course{
+    flex-direction: column;
+}
+.courses .course .course-img img{
+    width: 200px;
+}
+.courses .course .course-img span{
+    font-size: 0.8rem;
+}
